@@ -46,10 +46,10 @@ def predict():
         else:
             prediction = 1
 
-        return render_template("index.html", prediction=prediction)
+        return render_template("predict.html", prediction=prediction)
 
     else:
-        return render_template("index.html")
+        return render_template("predict.html")
 
 
 if __name__ == "__main__":
